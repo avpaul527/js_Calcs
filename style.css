@@ -1,0 +1,141 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/bicubik */
+@import "https://fonts.fontstorage.com/import/bicubik.css";
+/*
+	Bicubik, 400
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/intro */
+@import "https://fonts.fontstorage.com/import/intro.css";
+/*
+	Intro, 400
+*/
+
+
+
+  
+  body {
+    font-family: Bicubik;
+    background-color:rgb(56, 7, 7);
+    background-image: url('mosdefbr.jpg');
+    background-blend-mode: screen;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(3px);
+
+    backdrop-filter: blur(3px);
+    display: inline;
+  }
+
+  header{
+    margin-top: 0;
+    margin-bottom: 0px;
+    display:flex;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    
+    font-family: Intro;
+    align-items: center;
+    padding: 0;
+    font-size: 30px;
+  }
+
+  #heading{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: large;
+    
+  }
+
+  img {
+    max-width: 10%;
+    height: auto;
+    
+    
+  }
+  ::-webkit-scrollbar{
+    display: none;
+
+}
+
+  .container {
+    margin-top: 30px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-left: 555px;
+  
+  }
+  
+  h1 {
+    font-family: Intro;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inputs{
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+    font-family: Bicubik;
+  }
+  
+  input {
+    width: 100%;
+    margin:;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  input:focus {
+    outline: none;
+
+    background-color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #620c0c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Intro;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  .result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  .result span {
+    color: white;
+  }
